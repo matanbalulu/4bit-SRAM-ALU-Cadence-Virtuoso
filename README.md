@@ -15,9 +15,10 @@ The project covers the design flow from transistor-level schematics and physical
 - **Simulation:** Post-layout transient simulation after PEX
 - **Final Layout Area:** 462.87 µm²
 
-<!-- Add an image of the complete layout here after uploading it:
-![Final Integrated Layout](images/final_layout.png)
--->
+## Complete System Schematic
+
+![Complete System Schematic](images/final_schematic.png)
+
 
 ## System Architecture
 
@@ -46,6 +47,15 @@ Schematic Design → Physical Layout → DRC → LVS → PEX → Post-Layout Sim
 
 The final layout passed DRC and LVS verification. Post-layout simulation was performed using extracted parasitic resistance and capacitance to verify the functionality of the integrated system.
 
+### Final Physical Layout
+
+The complete system was implemented using a full-custom layout in Cadence Virtuoso.
+
+The final layout occupies approximately 462.87 µm² and successfully passed DRC and LVS verification.
+
+![Final Physical Layout](images/Final_Layout.png)
+
+
 ### Technology & Implementation
 
 | Parameter | Value |
@@ -73,7 +83,7 @@ The final post-layout simulation verifies the complete data flow: writing operan
 Both arithmetic results were successfully stored and read back from SRAM in the post-layout simulation.
 
 <!-- Add the final simulation waveform here after uploading it:
-![Post-Layout Simulation](images/final_simulation.png)
+![Post-Layout Simulation](images/Post-Layout simulation.png)
 -->
 
 ## Engineering Challenges & Solutions
