@@ -97,7 +97,7 @@ The simulation demonstrates the full operation sequence:
 
 The waveforms confirm correct system functionality after physical implementation.
 
-![Final Post-Layout Simulation](images/Layout_simulation.png)
+![Final Post-Layout Simulation](images/Layout_Simulation1.png)
 
 
 ## Engineering Challenges & Solutions
