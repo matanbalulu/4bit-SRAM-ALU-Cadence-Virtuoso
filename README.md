@@ -53,7 +53,7 @@ The complete system was implemented using a full-custom layout in Cadence Virtuo
 
 The final layout occupies approximately 462.87 µm² and successfully passed DRC and LVS verification.
 
-![Final Physical Layout](images/Final_Layout.png)
+![Final Physical Layout](images/Final_Layout1.png)
 
 
 ### Technology & Implementation
@@ -82,9 +82,23 @@ The final post-layout simulation verifies the complete data flow: writing operan
 
 Both arithmetic results were successfully stored and read back from SRAM in the post-layout simulation.
 
-<!-- Add the final simulation waveform here after uploading it:
-![Post-Layout Simulation](images/Post-Layout simulation.png)
--->
+
+### Final Post-Layout Simulation
+
+The complete system was verified using post-layout transient simulation following parasitic extraction (PEX).
+
+The simulation demonstrates the full operation sequence:
+
+1. Writing both operands to SRAM.
+2. Reading the operands into intermediate SRAM blocks.
+3. Performing addition and subtraction.
+4. Writing both results back to SRAM.
+5. Reading the stored results for verification.
+
+The waveforms confirm correct system functionality after physical implementation.
+
+![Final Post-Layout Simulation](images/Layout_simulation.png)
+
 
 ## Engineering Challenges & Solutions
 
